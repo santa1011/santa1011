@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
-    <link rel="stylesheet" href="styles.css" />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CREDENTIAL</title>
@@ -72,6 +72,8 @@
       </div>
     </div>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
       * {
         margin: 0;
         padding: 0;
@@ -79,23 +81,26 @@
       }
 
       body {
-        background-image: url(https://en.idei.club/uploads/posts/2023-06/1687769112_en-idei-club-p-blue-and-pink-background-dizain-instagram-6.jpg);
+        background-image: linear-gradient(
+          #8fdffd,
+          #a7dff4,
+          #d1b9ff,
+          #ff8de3,
+          #ff8de3
+        );
         justify-content: center;
         align-items: center;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        border: 1cm;
+        background-repeat: repeat;
+        background-size: 100% 200%;
       }
 
       .centre {
         height: 620px;
         width: 450px;
         background-color: white;
-        border: 1cm;
-        margin-top: 15%;
-        margin-left: 35%;
-        margin-bottom: 5%;
-        margin-right: 5%;
+        margin-left: 40%;
+        margin-top: 5%;
+        margin-bottom: 0%;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: medium;
@@ -148,7 +153,7 @@
         height: 50px;
         border: none;
         outline: none;
-        border: 1px solid rgb(255, 255, 255);
+        border: 1px solid;
         margin: 25px 25px 25px;
         background-image: linear-gradient(#00d9ff, #ff1af7);
         border-radius: 40px;
@@ -172,29 +177,27 @@
         margin-right: 5%;
         font-size: 45px;
       }
-      
-@media screen and (max-width:400px){
-    .wrapper{
-        font-size: 26px;
-    
-    }
-    
-.centre{
-    height: 620px;
-    width: 350px;
-    background-color: white;
-    margin-left: 4%;
-    margin-top: 15%;
-  padding-right: 5%;
-  font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: medium;
-}
-.apps{
-    margin-left: 23%;
-}
-}
 
+      @media screen and (max-width: 400px) {
+        .wrapper {
+          font-size: 26px;
+        }
+
+        .centre {
+          height: 620px;
+          width: 350px;
+          background-color: white;
+          margin-left: 4%;
+          margin-top: 15%;
+          padding-right: 5%;
+          font-family: "Roboto", sans-serif;
+          font-weight: 400;
+          font-size: medium;
+        }
+        .apps {
+          margin-left: 23%;
+        }
+      }
     </style>
   </body>
 </html>
